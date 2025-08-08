@@ -1,0 +1,128 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  margin: 10px;
+   padding: 15px;
+   justify-content:center;
+}
+.cd {
+  background-color: #fff;
+  width: 600px;
+  border: 5px solid #8e3838;
+  padding: -10px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin:auto ;
+ bottom:auto 
+
+}
+
+.sale-badge {
+  position: absolute;
+  top: -5px;
+  left: -30px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+
+  padding: 6px 10px;
+  transform: translate(-1px, -50%);
+}
+
+.product-card h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 200px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.shipping {
+  font-size: 12px;
+  color: #555;
+  margin-left: 5px;
+}
+
+.description {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.colors {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0 20px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.color.navy { background-color: navy; }
+.color.blue { background-color: blue; }
+.color.red { background-color: red; }
+.color.yellow { background-color: yellow; }
+.color.green { background-color: green; }
+.color.brown { background-color: brown; }
+
+.details {
+  margin-bottom: 20px;
+}
+
+.details h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.details ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.add-to-cart {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #333;
+}
+h2{
+    text-align: center;
+}

@@ -1,4 +1,15 @@
 .box {
+  width: 1920px;
+  height: 2000px;
+  background-color: white;
+  border: 10px solid lightseagreen;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 0px;
+  margin-top: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+aside {
   width: 500px;
   height: 550px;
   background-color: lightgray;
@@ -7,35 +18,106 @@
   border-right: 0px;
   padding: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 100px;
+  margin-top: 0px;
+  margin-left: 550px;
 }
 
-header {
-  text-align: center;
+.container {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  padding: 10px;
+  width: 1000px;
+  height: auto;
+  position: relative;
+  margin-left: 500px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 10px 0;
 }
 
-ul {
+.header h1 {
+  margin: 0px;
+  font-weight: bold;
   color: lightseagreen;
 }
 
-p {
+.header nav {
+  color: lightseagreen;
+  margin-left: 300px;
+}
+
+.header nav a {
+  margin: 0 10px;
+}
+
+.box2 {
+  background-color: whitesmoke;
+  width: 700px;
+  height: auto;
+  margin-left: 500px;
+}
+
+h1::after {
+  float: right;
+}
+
+h2 {
+  color: lightseagreen;
+}
+h3 {
+  color: lightseagreen;
+}
+a {
+  color: lightseagreen;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  margin-left: 550px;
+}
+h4 {
+  text-align: center;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
   color: black;
+  position: absolute;
+  top: 140px;
+  left: 78%;
+  padding: 4px;
 }
 
 body {
-  margin: 0%;
-  padding: 0%;
-  display: flex;
+  border: 10px solid lightseagreen;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
   justify-content: center;
-  height: 100vh;
+  margin: 0px;
+}
+
+article {
+  border-left: 0px;
+  border-right: 0px;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-left: 470px;
+  margin-right: 400px;
 }
 
 button {
-  margin: 200px;
-  margin-right: -400px;
   display: flex;
-  justify-content: center;
   width: 60px;
-  height: 40px;
-  position:relative;
+  height: 25px;
+  position: fixed;
+  right: 0px;
+  top: 500px;
 }
